@@ -28,8 +28,6 @@ public class CustomSqliteHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(CREATE_TABLE_STUDENT);
-
-
     }
 
     public void insertStudent(String name,String age, String email){
