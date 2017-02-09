@@ -55,9 +55,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void createTable() {
         mCustomSqliteHelper = new CustomSqliteHelper(MainActivity.this, null);
-        // mCustomSqliteHelper.insertStudent("Boopathi",25);
-        // mCustomSqliteHelper.insertStudent("Nantha",25);
-
     }
 
     @Override
