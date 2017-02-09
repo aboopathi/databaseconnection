@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //create table
         createTable();
 
+        //to get the student details
         getStudents();
 
     }
